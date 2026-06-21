@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use CenoMorph-PF, please cite both the paper and this archived repository."
+title: "CenoMorph-PF: A Cenozoic Planktonic Foraminifera Morphology Database"
+abstract: >
+  Open repository of (semi)landmark configurations, classification models and
+  code for the geometric-morphometric analysis of Cenozoic planktonic
+  foraminifera. v1 covers the Globigerinoides ruber - G. elongatus complex.
+authors:
+  - family-names: "Suárez-Ibarra"
+    given-names: "Jaime Y."
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- add your ORCID
+type: software
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-06-21"
+url: "https://github.com/jysuarezibarra/CenoMorph-PF"
+# doi: "10.5281/zenodo.XXXXXXX"   # <- paste the reserved Zenodo DOI here
