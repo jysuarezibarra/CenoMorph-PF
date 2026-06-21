@@ -9,15 +9,16 @@ reference set of digitised specimens, a documented landmark scheme, and (where
 available) a trained classifier, so that the morphology of additional species
 and genera can be added over time under a consistent protocol.
 
-> **Status:** v1 — *Globigerinoides ruber* / *G. elongatus* complex
-> (Suárez-Ibarra et al., submitted). Further taxa in progress.
+> **Status:** v1 — *Globigerinoides ruber* (*albus* and *ruber*) – *G. elongatus* 
+> (Suárez-Ibarra et al., submitted). Further taxa in progress. Previous studies
+> to upload after agreement.
 
 ---
 
 ## What's in this release
 
 The first module operationalises the revised taxonomy of the *G. ruber*–*G.
-elongatus* complex into a fast, reproducible discriminant tool. It distinguishes
+elongatus* into a fast, reproducible discriminant and comparative tool. It distinguishes
 *G. elongatus* from *G. ruber* (pooled *albus* + *ruber*) from a 16-(semi)landmark
 configuration of the umbilical view, with a leave-one-out accuracy of ~85.6%.
 
@@ -95,8 +96,8 @@ full list with DOIs). Important distinction:
 If you use these data, code, or the model, please cite **both** the paper and
 the archived release:
 
-- Suárez-Ibarra et al. (submitted). *[full citation once available].*
-- This repository, archived on Zenodo: **[INSERT ZENODO DOI]**
+- Suárez-Ibarra et al. (submitted). 
+- This repository, archived on Zenodo.
 
 (See `CITATION.cff` for machine-readable citation metadata.)
 
