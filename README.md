@@ -28,6 +28,7 @@ CenoMorph-PF/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
+├── IMAGE_SOURCES.md             # provenance + licence of every source image
 ├── code/
 │   └── apply_lda_model.R        # classify new specimens against a reference set
 ├── data/
@@ -74,6 +75,21 @@ Each specimen should carry, at minimum, the fields in `docs/metadata_template.cs
 location, age, image_DOI_or_reference, digitiser, date`.
 Consistent metadata is what turns a set of files into a usable database.
 
+## Image sources and licensing
+
+The reference (semi)landmark coordinates were **digitised from specimen images
+published in 16 sources** (see [`IMAGE_SOURCES.md`](IMAGE_SOURCES.md) for the
+full list with DOIs). Important distinction:
+
+- This repository shares **derived coordinate data** (`.tps` point sets), *not*
+  the original images. Coordinates are measurements of the specimens, attributed
+  to their source in the metadata.
+- Original images remain © their respective publishers. Some sources are open
+  access (CC-BY) and some are subscription/publisher-copyright; the split is
+  documented in [`IMAGE_SOURCES.md`](IMAGE_SOURCES.md). Anyone wishing to reuse
+  the **original images** (rather than the coordinates) should consult the
+  rights holder.
+
 ## How to cite
 
 If you use these data, code, or the model, please cite **both** the paper and
@@ -93,5 +109,10 @@ will be added as the database grows.
 
 ## License
 
-Released under [INSERT LICENSE — e.g. CC-BY 4.0 for data, MIT for code].
-Please retain attribution.
+- **Code** (`code/`): released under the [MIT License](LICENSE).
+- **Data** (`data/`, landmark coordinates) and documentation: released under
+  [Creative Commons Attribution 4.0 (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+Please retain attribution. Note that the **original specimen images** are not
+distributed here and remain © their respective publishers (see
+[`IMAGE_SOURCES.md`](IMAGE_SOURCES.md)).
