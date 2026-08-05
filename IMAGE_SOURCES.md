@@ -1,6 +1,6 @@
 # Image sources
 
-These (semi)landmark data accompany the manuscript:
+These landmark data accompany the manuscript:
 
 > **Morphologic variability of *Globigerinoides ruber* (*albus* and *ruber*) and *G. elongatus* in the world oceans.**
 > Suárez-Ibarra et al.
@@ -8,7 +8,7 @@ These (semi)landmark data accompany the manuscript:
 Compiled and digitised by J. Y. Suárez-Ibarra (suarez@cerege.fr;
 jysuarezibarra@gmail.com).
 
-The (semi)landmark coordinates in `data/reference/` were digitised from
+The landmark coordinates in `data/reference/` were digitised from
 specimen images published in the following sources. The coordinates are
 derived measurements (point sets), not reproductions of the original images;
 the original images remain © their respective publishers/authors. Anyone
