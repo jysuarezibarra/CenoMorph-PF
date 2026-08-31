@@ -95,7 +95,8 @@ If you use these data, code, or the model, please cite **both** the paper and th
 archived release:
 
 - Suárez-Ibarra et al. (submitted).
-- This repository, archived on Zenodo.
+- This repository, archived on Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22212946.svg)](https://doi.org/10.5281/zenodo.22212946)
+.
 
 (See `CITATION.cff` for machine-readable citation metadata.)
 
